@@ -1,0 +1,55 @@
+
+
+.APPgeneral {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 8px;
+  border: 1px yellow solid;
+  height: 99vh;
+}
+  
+
+.containerFoto {
+  grid-column: span 2 / span 2;
+  grid-row: span 5 / span 5;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  border: 1px red solid;
+}
+
+.devFoto{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.container-text {
+  grid-column: span 4 / span 5;
+  grid-row: span 2 / span 5;
+  grid-column-start: 4;
+  grid-row-start: 2;
+  border: 1px red solid;
+}
+
+.nombre{
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.titulo{
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.descripcion{
+  margin: 0px;
+  padding: 0px 0px 0px 10px;
+  font-size: 18px;
+  font-weight:none;
+}
